@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@media all and (min-width: 875px) {
+body{
+
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+   
+    font-size: 18px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.card{
+    
+    width: 25%;
+
+    background-color: hsl(216, 50%, 16%);
+    padding: 3%;
+    border-radius: 32px;
+}
+h1{margin-bottom: 8%;}
+h1 a{
+
+    color: white;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+h1 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.img-card{
+    position: relative;
+    
+    margin-bottom: 8%;
+    border-radius: 16px;
+ 
+    
+   
+    
+
+}
+.img-card-hover{
+position: absolute;
+background-color: hsl(178, 100%, 50%);
+height: 100%;
+width: 100%;
+border-radius: 16px;
+opacity: 0;
+
+}
+.img-card-hover:hover{
+    opacity: 0.5;
+}
+
+
+.img-card{
+    
+    z-index: 100;
+ 
+   
+    
+
+}
+.img-card :first-child{
+   
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card > h2 {
+
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 8%;
+}
+.card div:nth-child(1){
+    
+    display: flex;
+    align-items: center;
+    color:  hsl(178, 100%, 50%);
+   
+}
+.card div:nth-child(1) img{
+    margin-right: 8px;
+}
+.card div:nth-child(2){
+   
+    display: flex;
+    align-items: center;
+ 
+}
+.card div:nth-child(2) img{
+    margin-right: 8px;
+}
+.section-time {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 8%
+}
+.trait{
+    background-color: hsl(215, 51%, 70%);
+    height: 0.5px;
+    margin-bottom: 8%
+}
+.card div:nth-child(6){
+    display: flex;
+    align-items: center;
+
+}
+.card div:nth-child(6) h2{
+    color: hsl(215, 51%, 70%);;
+
+}
+.card div:nth-child(6) a{
+    color: white;
+    text-decoration: none;
+
+}
+.card div:nth-child(6) a:hover{
+    color: hsl(178, 100%, 50%);
+    text-decoration: none;
+
+}
+.avatar{
+    
+   width: 15%;
+   border: solid white 2px;
+   border-radius: 100%;
+   margin-right: 24px;
+}
+}
+
+
+
+
+/* VERSION  MOBILE */
+@media all and (min-width: 375px) and (max-width: 874px) {
+    body{
+    
+        background-color:hsl(217, 54%, 11%);
+        display: flex;
+        justify-content: center;
+       
+        font-size: 18px;
+        font-family: 'Outfit';
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+    .card{
+        
+        width: 85%;
+    
+        background-color: hsl(216, 50%, 16%);
+        padding: 3%;
+        border-radius: 32px;
+    }
+    h1{margin-bottom: 8%;}
+    h1 a{
+    
+        color: white;
+        font-family: 'Outfit';
+        font-weight: 600;
+        font-size: 24px;
+    
+    }
+    
+    h1 a:hover{
+        color: hsl(178, 100%, 50%);
+    }
+    .img-card{
+        position: relative;
+        
+        margin-bottom: 8%;
+        border-radius: 16px;
+     
+        
+       
+        
+    
+    }
+    .img-card-hover{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    opacity: 0;
+    
+    }
+    .img-card-hover:hover{
+        opacity: 0.5;
+    }
+    
+    
+    .img-card{
+        
+        z-index: 100;
+     
+       
+        
+    
+    }
+    .img-card :first-child{
+       
+        width: 100%;
+        border-radius: 16px;
+    }
+    
+    .card > h2 {
+    
+        color: hsl(215, 51%, 70%);
+        margin-bottom: 8%;
+    }
+    .card div:nth-child(1){
+        
+        display: flex;
+        align-items: center;
+        color:  hsl(178, 100%, 50%);
+       
+    }
+    .card div:nth-child(1) img{
+        margin-right: 8px;
+    }
+    .card div:nth-child(2){
+       
+        display: flex;
+        align-items: center;
+     
+    }
+    .card div:nth-child(2) img{
+        margin-right: 8px;
+    }
+    .section-time {
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        color: hsl(215, 51%, 70%);
+        margin-bottom: 8%
+    }
+    .trait{
+        background-color: hsl(215, 51%, 70%);
+        height: 0.5px;
+        margin-bottom: 8%
+    }
+    .card div:nth-child(6){
+        display: flex;
+        align-items: center;
+    
+    }
+    .card div:nth-child(6) h2{
+        color: hsl(215, 51%, 70%);;
+    
+    }
+    .card div:nth-child(6) a{
+        color: white;
+        text-decoration: none;
+    
+    }
+    .card div:nth-child(6) a:hover{
+        color: hsl(178, 100%, 50%);
+        text-decoration: none;
+    
+    }
+    .avatar{
+        
+       width: 15%;
+       border: solid white 2px;
+       border-radius: 100%;
+       margin-right: 24px;
+    }
+    }
